@@ -1,0 +1,5 @@
+## YAML Override template
+## original/file.tpl: override/file.tpl
+---
+modules/News/templates/block_storiesext_main.tpl: themes/SeriousTheme/templates/modules/News/block_storiesext_main.tpl
+modules/News/templates/block_storiesext_row.tpl: themes/SeriousTheme/templates/modules/News/block_storiesext_row.tpl

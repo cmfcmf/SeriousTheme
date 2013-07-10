@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    word-wrap:break-word;
+    background-color:#f5f5f5;
+}
+
+
+#theme_page_container {
+    width: 100%;
+    min-width: 850px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: 'Kite One', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Kite One', sans-serif;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Kite One', sans-serif;
+    margin-bottom: 6px;
+}
+
+h3:before {
+    content: "≡";
+    color: #038FD0;
+    margin-right: 5px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+a {
+    color: #1e90ff; /* TODO */
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+#theme_header {
+    position: relative; /* see #theme_social */
+    background-image: -webkit-linear-gradient(left, #038FD0 0%, white 100%);
+    background-image: -moz-linear-gradient(left, #038FD0 0%, white 100%);
+    background-image: -o-linear-gradient(left, #038FD0 0%, white 100%);
+    background-image: linear-gradient(left, #038FD0 0%, white 100%);
+    -pie-background: linear-gradient(left, #038FD0 0%, white 100%);
+    behavior: url('../pie/pie.htc');
+}
+
+#theme_header h1.title {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Kite One', sans-serif;
+}
+
+#theme_header h1.title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#theme_header h2.slogan {
+    margin-left: 3%;
+    margin-bottom: 20px;
+    font-family: 'Kite One', sans-serif;
+}
+
+#theme_header_img {
+    padding: 10px;
+    background: right top url('http://gsm.breloehr.de/thumb/_stmari.jpg') scroll no-repeat;
+}
+
+#theme_social {
+    position: absolute;
+    bottom: -14px;
+    left: 22%;
+}
+
+#theme_topnav {
+    margin-bottom: 20px;
+    background-color: #038FD0;
+    margin-right: 0;
+
+    background-image: -webkit-linear-gradient(left, #038FD0 60%, white 100%);
+    background-image: -moz-linear-gradient(left, #038FD0 60%, white 100%);
+    background-image: -o-linear-gradient(left, #038FD0 60%, white 100%);
+    background-image: linear-gradient(left, #038FD0 60%, white 100%);
+    -pie-background: linear-gradient(left, #038FD0 60%, white 100%);
+    behavior: url('../pie/pie.htc');
+}
+
+#theme_content {
+    overflow:hidden;
+    background-color: white;
+}
+
+#theme_sidebar_left {
+    width: 20%;
+    min-width: 170px;
+    padding:10px;
+    border-right: 2px solid #038FD0;
+    background-color:#f5f5f5;
+}
+
+#theme_maincontent {
+    width: 75%;
+    padding:10px 0 10px 10px;
+    background-color:#f5f5f5;
+
+    background-image: -webkit-linear-gradient(left, #f5f5f5 80%, white 100%);
+    background-image: -moz-linear-gradient(left, #f5f5f5 80%, white 100%);
+    background-image: -o-linear-gradient(left, #f5f5f5 80%, white 100%);
+    background-image: linear-gradient(left, #f5f5f5 80%, white 100%);
+    -pie-background: linear-gradient(left, #f5f5f5 80%, white 100%);
+    behavior: url('../pie/pie.htc');
+}
+
+#theme_sidebar_left, #theme_maincontent {
+    padding-bottom:32767px;
+    margin-bottom:-32767px;
+    float: left;
+    display: inline;
+}
+
+.theme_block_left {
+    margin-bottom: 20px;
+}
+
+.theme_hr {
+    height: 2px;
+    margin: 1px 0px 10px 0px;
+    background-color: #038FD0;
+}
+
+#theme_footer {
+    background-color: #038FD0;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+    margin: 0;
+    clear: both;
+}
+
+#theme_footer a {
+    color: inherit;
+}
+
+#theme_footer p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.navlist {
+    list-style-type: none;
+}
+
+.navlist li {
+    background-color: rgb(220, 220, 220);
+}
+
+.navlist li:hover {
+    background-color: rgb(180, 180, 180);
+    font-weight: bold;
+}
+
+.navlist li a {
+    text-decoration: none;
+    padding: 3px 3px 3px 10px;
+    color: inherit;
+    display: block;
+}
+
+.storiesext .storiesext_hometext {
+    padding-left: 10px;
+}
