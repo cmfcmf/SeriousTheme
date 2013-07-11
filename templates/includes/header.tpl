@@ -10,10 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
     {pageaddvar name="stylesheet" value="$stylepath/reset.css"}
     {pageaddvar name="stylesheet" value="$stylepath/style.css"}
-    {*pageaddvar name="javascript" value="jquery"*}
-    {pageaddvar name="javascript" value="$stylepath/../javascript/main.js"}
 
-    <!--[if lte IE 7]>
+    {browserhack condition="if lte IE 7"}
     <style type="text/css">
         body {
             word-wrap:break-word;
@@ -26,7 +24,7 @@
             display:inline-block;
         }
     </style>
-    <![endif]-->
+    {/browserhack}
 
 </head>
 <body>
