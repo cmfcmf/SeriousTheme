@@ -29,3 +29,10 @@
 </head>
 <body>
     <div id="theme_page_container">
+        <div id="theme_header">
+            <div id="theme_header_img">
+                <h1 class="title"><a href="{homepage}">{$modvars.ZConfig.sitename}</a></h1>
+                <h2 class="slogan">{$modvars.ZConfig.slogan}</h2>
+                <div id="theme_social">{modavailable modname='Socialise' assign='socialiseAvailable'}{if $socialiseAvailable == true}{modapifunc modname='Socialise' type='plugin' func='sexybookmarks' url=$baseurl title=$modvars.ZConfig.sitename}{/if}</div>
+            </div>
+        </div> <!-- end theme_header -->

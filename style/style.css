@@ -38,17 +38,26 @@ h3:before {
     margin-right: 5px;
 }
 
+.z-admin-content-pagetitle h3:before {
+    content: "";
+    margin: 0;
+}
+
 h4 {
     font-size: 16px;
     margin-bottom: 4px;
 }
 
 h5 {
-
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
 h6 {
-
+    font-size: 15px;
+    text-decoration: underline;
+    margin-bottom: 4px;
 }
 
 a {
@@ -58,6 +67,23 @@ a {
 p {
     margin-top: 5px;
     margin-bottom: 14px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+li {
+    margin: 5px;
 }
 
 #theme_header {
@@ -114,7 +140,7 @@ p {
 }
 
 #theme_content {
-    overflow:hidden;
+    overflow: hidden;
     background-color: white;
 }
 
@@ -180,6 +206,7 @@ p {
 
 .navlist li {
     background-color: rgb(220, 220, 220);
+    margin: 0;
 }
 
 .navlist li:hover {
@@ -196,4 +223,9 @@ p {
 
 .storiesext .storiesext_hometext {
     padding-left: 10px;
+}
+
+.z-admin-coreversion {
+    margin-top: 5px !important;
+    font-style: italic;
 }
