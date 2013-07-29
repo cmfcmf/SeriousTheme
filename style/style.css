@@ -77,8 +77,15 @@ strong {
     font-weight: bold;
 }
 
-ol, ul {
+ul {
     list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul, ol {
     list-style-position: inside;
 }
 
