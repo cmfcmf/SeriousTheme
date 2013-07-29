@@ -51,6 +51,7 @@ ul.menutree_horizontal li ul {
 }
 
 ul.menutree_horizontal li li {
+    width: 100%;
 }
 
 ul.menutree_horizontal li li a,
