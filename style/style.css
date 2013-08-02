@@ -153,6 +153,7 @@ li {
 #theme_content {
     overflow: hidden;
     background-color: white;
+    padding-bottom: 10px;
 }
 
 #theme_sidebar_left, #theme_sidebar_right {
