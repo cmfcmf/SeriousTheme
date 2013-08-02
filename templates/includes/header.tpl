@@ -10,6 +10,11 @@
     <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
     {pageaddvar name="stylesheet" value="$stylepath/reset.css"}
     {pageaddvar name="stylesheet" value="$stylepath/style.css"}
+    {if $sideBar == 'left'}
+        {pageaddvar name="stylesheet" value="$stylepath/style_block_left.css"}
+    {elseif $sideBar == 'right'}
+        {pageaddvar name="stylesheet" value="$stylepath/style_block_right.css"}
+    {/if}
 
     {browserhack condition="if lte IE 7"}
     <style type="text/css">

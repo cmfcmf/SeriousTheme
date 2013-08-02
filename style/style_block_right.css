@@ -1,0 +1,27 @@
+#theme_maincontent {
+    float: left;
+    padding-left: 10px;
+}
+
+#theme_sidebar_right {
+    float: right;
+    border-left: 2px solid #038FD0;
+}
+
+#theme_social {
+    left: 0;
+}
+
+#theme_footer #theme_credits {
+    margin-right: 25%;
+}
+
+#theme_footer #theme_bottomnav {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+
+.storiesext .storiesext_hometext {
+    padding-right: 10px;
+}
