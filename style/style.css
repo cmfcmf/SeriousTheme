@@ -154,6 +154,7 @@ li {
     overflow: hidden;
     background-color: white;
     padding-bottom: 10px;
+    min-height: 450px;
 }
 
 #theme_sidebar_left, #theme_sidebar_right {
